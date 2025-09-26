@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF--8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>如影若梦影视策划 | 视频创意服务项目</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -53,25 +53,6 @@
     </style>
 </head>
 <body class="text-gray-800">
-
-    <!-- 
-    Palette Selection: "Energetic & Playful" (#00A6A6, #75B5B5, #E8C547, #F4A424, #E4572E)
-    Narrative Plan:
-    1. Hero: Introduce the company and its value proposition.
-    2. Process: Visualize the service workflow to build trust.
-    3. Service Overview: Compare package starting prices for a quick understanding.
-    4. Deep Dive - Product Visuals: Detail the packages for e-commerce and product showcases.
-    5. Deep Dive - Bilibili Content Marketing: Detail Bilibili marketing services for the 3C category.
-    6. Deep Dive - Creative Production-for-Hire: Detail various creative video production services.
-    7. Deep Dive - Brand Image: Detail premium, high-impact brand film services.
-    8. Add-ons: List optional services.
-    9. Footer/Contact: Final call to action.
-    Visualization Plan:
-    - Process Flow: HTML/CSS diagram. Goal: Organize. Method: Styled divs, non-SVG.
-    - Service Overview: Stacked Bar Chart. Goal: Compare. Library: Chart.js, Canvas, non-SVG.
-    - Package Display: All packages are displayed using a consistent card-based layout for intuitive comparison.
-    - Confirmation: Neither Mermaid JS nor SVG graphics were used in this output. All visuals are rendered via Chart.js on Canvas or using structured HTML/CSS with Tailwind.
-    -->
 
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
@@ -138,24 +119,36 @@
         <section id="product" class="mb-16 md:mb-24">
             <h2 class="text-3xl font-bold text-center mb-2">产品视觉套餐</h2>
             <p class="text-center text-gray-600 mb-8">精准传达产品价值，提升用户吸引力与购买转化。</p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#00A6A6]">P1. 基础产品视频</h3>
-                    <p class="text-gray-500 mb-4 text-sm">≤ 60秒</p>
-                    <p class="flex-grow">纯产品动态展示，含基础剪辑、配乐及卖点字幕。</p>
+                    <p class="text-gray-500 mb-4 text-sm">视频时长 ≤ 60秒</p>
+                    <p class="flex-grow">纯产品动态展示, 含基础剪辑、配乐及卖点字幕。</p>
                     <div class="text-4xl font-black text-right mt-4 text-[#00A6A6]">¥3,500</div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
-                    <h3 class="text-xl font-bold text-[#75B5B5]">P2. 场景演示视频</h3>
-                    <p class="text-gray-500 mb-4 text-sm">≤ 2-3分钟</p>
-                    <p class="flex-grow">生活化/功能性场景演示，可包含手模或基础模特，含完整策划、拍摄及后期。</p>
-                    <div class="text-4xl font-black text-right mt-4 text-[#75B5B5]">¥6,000</div>
+                    <h3 class="text-xl font-bold text-[#75B5B5]">P2. 基础产品图片</h3>
+                    <p class="text-gray-500 mb-4 text-sm">主图+详情页素材采集</p>
+                    <p class="flex-grow">8-10张高清产品素材图拍摄 (不含后期)。</p>
+                    <div class="text-4xl font-black text-right mt-4 text-[#75B5B5]">¥1,500</div>
                 </div>
-                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
-                    <h3 class="text-xl font-bold text-[#E8C547]">P3. 电商视觉组合</h3>
-                    <p class="text-gray-500 mb-4 text-sm">1条P2视频 + 一套主图</p>
-                    <p class="flex-grow">包含P2套餐的全部内容，并额外提供8-10张高清产品素材图。</p>
-                    <div class="text-4xl font-black text-right mt-4 text-[#E8C547]">¥8,500</div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
+                    <h3 class="text-xl font-bold text-[#E8C547]">P3. 产品图片制作</h3>
+                    <p class="text-gray-500 mb-4 text-sm">P2素材采集 + 修图合成</p>
+                    <p class="flex-grow">包含8-10张高清产品素材 + 修图合成。</p>
+                    <div class="text-4xl font-black text-right mt-4 text-[#E8C547]">¥2,500</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
+                    <h3 class="text-xl font-bold text-[#F4A424]">P4. 场景演示视频</h3>
+                    <p class="text-gray-500 mb-4 text-sm">视频时长 ≤ 2-3分钟</p>
+                    <p class="flex-grow">生活化/功能性场景演示, 可包含手模或基础模特, 含完整策划、拍摄及后期。</p>
+                    <div class="text-4xl font-black text-right mt-4 text-[#F4A424]">¥6,000</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
+                    <h3 class="text-xl font-bold text-[#E4572E]">P5. 电商视觉组合</h3>
+                    <p class="text-gray-500 mb-4 text-sm">1条P4视频 + 一套主图</p>
+                    <p class="flex-grow">包含P4套餐的全部内容, 并额外提供8-10张高清产品素材图。</p>
+                    <div class="text-4xl font-black text-right mt-4 text-[#E4572E]">¥8,500</div>
                 </div>
             </div>
         </section>
@@ -167,13 +160,16 @@
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#E4572E]">B1. 标准评测视频</h3>
                     <p class="text-gray-500 mb-4 text-sm">开箱 / 单品评测</p>
-                    <p class="flex-grow">包含创意脚本、专业团队拍摄、精剪调色、视效包装，以及全套营销运营服务（发布、投流、优化、互动）。</p>
+                    <ul class="flex-grow list-disc list-inside space-y-2 text-gray-700">
+                        <li><span class="font-semibold">创意制作:</span> 含创意脚本、专业团队拍摄、精剪调色、视效包装。</li>
+                        <li><span class="font-semibold">营销运营:</span> 含视频发布、基础投流增长、标题与标签优化、48小时核心评论引导互动。</li>
+                    </ul>
                     <div class="text-4xl font-black text-right mt-4 text-[#E4572E]">¥8,000</div>
                 </div>
                  <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#F4A424]">B2. 深度内容视频</h3>
                     <p class="text-gray-500 mb-4 text-sm">横向对比 / 教程</p>
-                    <p class="flex-grow">在标准评测基础上，提供更深入的内容策划和更全面的运营策略。</p>
+                    <p class="flex-grow">包含标准评测视频的<span class="font-semibold">全部服务内容</span>，并提供更具深度的横向对比或教程类内容策划与制作。</p>
                     <div class="text-4xl font-black text-right mt-4 text-[#F4A424]">¥12,000</div>
                 </div>
             </div>
@@ -186,26 +182,26 @@
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#00A6A6]">C1. 创意短视频</h3>
                     <p class="text-gray-500 mb-4 text-sm">1-2分钟</p>
-                    <p class="flex-grow">用于品牌开屏、自有平台展示及引流。</p>
+                    <p class="flex-grow">包含完整的前期创意脚本、专业团队拍摄、后期精剪、调色及视效包装。用于品牌开屏、自有平台展示以及产品引流。</p>
                     <div class="text-4xl font-black text-right mt-4 text-[#00A6A6]">¥5,000<span class="text-lg font-normal">/分钟</span></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#75B5B5]">C2. 剧情短视频</h3>
                     <p class="text-gray-500 mb-4 text-sm">2-3分钟</p>
-                    <p class="flex-grow">通过生活化场景多人演绎，展示核心利益点，提升品牌形象。</p>
+                    <p class="flex-grow">包含剧情创意、分镜脚本, 通过生活化场景多人演绎, 展示核心利益点和产品特色, 提升品牌形象。</p>
                     <div class="text-4xl font-black text-right mt-4 text-[#75B5B5]">¥5,000<span class="text-lg font-normal">/分钟</span></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#E8C547]">C3. MG动画短片</h3>
                     <p class="text-gray-500 mb-4 text-sm">30秒起</p>
                     <p class="flex-grow">包含创意脚本、分镜、动画制作、后期制作。</p>
-                    <div class="text-4xl font-black text-right mt-4 text-[#E8C547]">¥200<span class="text-lg font-normal">/秒起</span></div>
+                    <div class="text-4xl font-black text-right mt-4 text-[#E8C547]">¥200-300<span class="text-lg font-normal">/秒</span></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#F4A424]">C4. 三维动画短片</h3>
                     <p class="text-gray-500 mb-4 text-sm">30秒起</p>
-                    <p class="flex-grow">包含角色建模、贴图、绑定、渲染及角色动画。</p>
-                    <div class="text-4xl font-black text-right mt-4 text-[#F4A424]">¥350<span class="text-lg font-normal">/秒起</span></div>
+                    <p class="flex-grow">包含角色模型、贴图、绑定、渲染效果图以及角色动画、渲染输出。</p>
+                    <div class="text-4xl font-black text-right mt-4 text-[#F4A424]">¥350-500<span class="text-lg font-normal">/秒</span></div>
                 </div>
             </div>
         </section>
@@ -217,19 +213,19 @@
                  <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#00A6A6]">D1. 创意短片</h3>
                     <p class="text-gray-500 mb-4 text-sm">2-3分钟</p>
-                    <p class="flex-grow">导演介入、分镜设计、专业灯光与电影级调色，打造品牌情感故事。</p>
+                    <p class="flex-grow">包含导演介入、分镜设计、专业灯光与电影级调色，打造具有情感的品牌故事。</p>
                     <div class="text-4xl font-black text-right mt-4 text-[#00A6A6]">¥18,000<span class="text-lg font-normal">/分钟起</span></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col">
                     <h3 class="text-xl font-bold text-[#75B5B5]">D2. 纪录类短片</h3>
                     <p class="text-gray-500 mb-4 text-sm">3-5分钟</p>
-                    <p class="flex-grow">适用于复杂场景或深入的情绪表达，提供更完整的品牌价值叙事。</p>
+                    <p class="flex-grow">适用于更复杂的场景或更深入的情绪表达, 提供更完整的品牌价值叙事。</p>
                     <div class="text-4xl font-black text-right mt-4 text-[#75B5B5]">¥15,000<span class="text-lg font-normal">/分钟起</span></div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col bg-gradient-to-br from-[#E8C547] to-[#F4A424] text-white">
                     <h3 class="text-xl font-bold">D3. 品牌形象片</h3>
                     <p class="opacity-80 mb-4 text-sm">全流程定制</p>
-                    <p class="flex-grow opacity-90">从深度访谈到顶级团队执行，打造具备行业影响力的旗舰级宣传片。</p>
+                    <p class="flex-grow opacity-90">从深度访谈到顶级团队执行, 打造具备行业影响力的旗舰级宣传片。</p>
                     <div class="text-4xl font-black text-right mt-4">议价</div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col bg-gradient-to-br from-[#E4572E] to-[#F4A424] text-white">
@@ -243,30 +239,34 @@
         
         <section id="addons">
             <h2 class="text-3xl font-bold text-center mb-8">可选增值服务</h2>
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
-                <div class="bg-white rounded-xl shadow-lg p-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 text-center">
+                <div class="bg-white rounded-xl shadow-lg p-4 flex flex-col justify-center items-center">
                     <p class="text-4xl mb-2">🎭</p>
                     <p class="font-semibold">专业演员/模特</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-4">
+                <div class="bg-white rounded-xl shadow-lg p-4 flex flex-col justify-center items-center">
+                    <p class="text-4xl mb-2">🤖</p>
+                    <p class="font-semibold">AIGC合成片段</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4 flex flex-col justify-center items-center">
                     <p class="text-4xl mb-2">🎤</p>
                     <p class="font-semibold">KOL/网红达人</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-4">
+                <div class="bg-white rounded-xl shadow-lg p-4 flex flex-col justify-center items-center">
                     <p class="text-4xl mb-2">🎬</p>
-                    <p class="font-semibold">专业影棚</p>
+                    <p class="font-semibold">专业影棚租赁</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-4">
+                <div class="bg-white rounded-xl shadow-lg p-4 flex flex-col justify-center items-center">
                     <p class="text-4xl mb-2">🏗️</p>
                     <p class="font-semibold">特殊场景搭建</p>
                 </div>
-                 <div class="bg-white rounded-xl shadow-lg p-4">
+                 <div class="bg-white rounded-xl shadow-lg p-4 flex flex-col justify-center items-center">
                     <p class="text-4xl mb-2">🎨</p>
                     <p class="font-semibold">美术/IP设计</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-4">
+                <div class="bg-white rounded-xl shadow-lg p-4 flex flex-col justify-center items-center">
                     <p class="text-4xl mb-2">🎵</p>
-                    <p class="font-semibold">版权音乐</p>
+                    <p class="font-semibold">正版版权音乐</p>
                 </div>
             </div>
             <p class="text-center text-gray-500 mt-4 text-sm">以上服务可根据项目需求组合，费用需单独洽谈。</p>
@@ -285,7 +285,7 @@
             </div>
         </div>
         <div class="bg-gray-900 py-4">
-             <p class="text-center text-sm text-gray-500">&copy; 2025 如影若梦影视策划有限公司. All Rights Reserved. 如拍摄地点超出本市（杭州市）范围，将额外产生差旅费用。</p>
+             <p class="text-center text-sm text-gray-500 px-4">&copy; 2025 如影若梦影视策划有限公司. All Rights Reserved. 本刊例价格有效期至2025年12月31日。如拍摄地点超出本市（杭州市）范围，将额外产生差旅费用。</p>
         </div>
     </footer>
 
@@ -300,13 +300,13 @@
                 labels: ['产品视觉', 'B站营销', '创意代制作', '品牌形象'],
                 datasets: [{
                     label: '起步价',
-                    data: [3500, 8000, 5000, 15000],
+                    data: [1500, 8000, 5000, 15000],
                     backgroundColor: ['#00A6A6', '#E4572E', '#75B5B5', '#E8C547'],
                     borderColor: '#ffffff',
                     borderWidth: 2,
                 }, {
                     label: '浮动范围',
-                    data: [5000, 4000, 10000, 35000],
+                    data: [7000, 4000, 10000, 35000],
                     backgroundColor: ['rgba(0, 166, 166, 0.5)', 'rgba(228, 87, 46, 0.5)', 'rgba(117, 181, 181, 0.5)', 'rgba(232, 197, 71, 0.5)'],
                     borderColor: '#ffffff',
                     borderWidth: 2,
